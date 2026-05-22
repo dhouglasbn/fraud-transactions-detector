@@ -14,7 +14,7 @@ from xgboost import XGBClassifier
 
 # Transaction Dataset 
 # Time -> transaction moment
-# It has 27 values V's that are processed data from transactions (VCA)
+# It has 27 values V's that are processed data from transactions (PCA)
 # Amount -> transaction value
 # Class -> indicates that the transaction is a fraud
 df = load_dataset()
